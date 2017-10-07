@@ -1,0 +1,29 @@
+@media all and (max-width: 640px) {
+  body {
+    font-size: 15px;
+  }
+
+  div.row {
+    margin: 2rem auto;
+    width: 66.6667%;
+  }
+
+  div.logo {
+    width: 100%;
+  }
+
+  div.message {
+    position: relative;
+      right: auto;
+      bottom: auto;
+    width: 100%;
+
+    p {
+      font-size: 1.5rem;
+      text: {
+        align: center;
+        transform: none;
+      }
+    }
+  }
+}

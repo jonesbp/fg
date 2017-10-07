@@ -1,0 +1,60 @@
+body {
+	font-family: futura-pt, Helvetica, serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: $text;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+div.row {
+  margin: 4rem auto;
+  max-width: 960px;
+  position: relative;
+  width: 80%;
+}
+
+div.logo {
+  width: 50%;
+}
+
+div.message {
+  position: absolute;
+    right: 0;
+    bottom: 33.3333%;
+  width: 50%;
+
+  p {
+    font: {
+    	family: futura-pt, Helvetica, sans-serif;
+    	size: 2.5rem;
+    	weight: 400;
+    }
+  	text-transform: uppercase;
+
+    strong {
+      font-weight: 700;
+    }
+  }
+}
+
+a {
+	color: $text;
+	text-decoration: none;
+	letter-spacing: .05em;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+ul.links {
+  text-align: center;
+
+  li {
+    margin-bottom: .5em;
+  }
+}
