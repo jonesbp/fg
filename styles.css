@@ -92,30 +92,29 @@ ul.links {
 @media all and (max-width: 1200px) {
   div.message p {
     font-size: 2.25rem; } }
+
 @media all and (max-width: 1000px) {
   div.message {
     bottom: 25%; }
     div.message p {
       font-size: 2rem; } }
+
 @media all and (max-width: 780px) {
   div.row {
     width: 90%; }
-
   div.message {
     bottom: 25%; }
     div.message p {
       font-size: 1.8rem; } }
+
 @media all and (max-width: 640px) {
   body {
     font-size: 15px; }
-
   div.row {
     margin: 2rem auto;
     width: 66.6667%; }
-
   div.logo {
     width: 100%; }
-
   div.message {
     position: relative;
     right: auto;
@@ -125,5 +124,3 @@ ul.links {
       font-size: 1.5rem;
       text-align: center;
       text-transform: none; } }
-
-/*# sourceMappingURL=styles.css.map */
