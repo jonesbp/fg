@@ -1,0 +1,13 @@
+@media all and (max-width: 780px) {
+  div.row {
+    width: 90%;
+  }
+
+  div.message {
+    bottom: 25%;
+
+    p {
+      font-size: 1.8rem;
+    }
+  }
+}
